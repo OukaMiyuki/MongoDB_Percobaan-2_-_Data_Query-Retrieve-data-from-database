@@ -15,7 +15,7 @@ const courseSchema = new mongoose.Schema({
     isPublished: Boolean
 }); 
 
-const Course = mongoose.model('Course', courseSchema);
+const Course = mongoose.model('Course', courseSchema); //if you wondering how can you get the name of the table check in this line
 
 async function createCourse(){
     try{
